@@ -1,0 +1,36 @@
+class FirstYear
+{
+    void branch()
+    {
+        System.out.println("ECE");
+    }
+    void subjects()
+    {
+         System.out.println("LAC PHY ENG");
+    }
+    void backlogs()
+    {
+         System.out.println("phy");
+    }
+}
+    class SecondYear
+    {
+        void Subjects()
+        {
+            FirstYear f1=new FirstYear();
+            f1.branch();
+             f1.backlogs();
+             System.out.println("CVT SS AC");
+        }
+    }
+    class Test
+    {
+        public static void main(String args[])
+        {
+            SecondYear s1=new SecondYear();
+            s1.Subjects();
+        }
+    }
+
+
+
